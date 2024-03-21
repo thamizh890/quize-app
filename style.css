@@ -1,0 +1,56 @@
+body{
+    font-family: 'Turret+Road',sans-serif;
+    background-color:rgba(0, 0, 255, 0.522);
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+ .app{
+    width: 100%;
+    max-width: 500px;
+    border-radius: 15px;
+    margin-left: 400px;
+    margin-top: 60px;
+    padding: 20px;
+    background-color: whitesmoke;
+    margin-bottom: 10px;
+    border-left: 2px solid yellow;
+    border-right: 2px solid yellow;
+ }
+ .app h1{
+    padding-bottom: 20px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.302);
+ }
+ .app h2{
+    margin-top: 10px;
+ }
+ .btn{
+    width: 100%;
+    padding: 8px;
+    margin-right: 10px;
+    margin-top: 30px;
+    border-radius: 5px;
+    font-size: 30px;
+    text-align: left;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+    border: 2px solid rgba(0, 0, 0, 0.598);
+ }
+ #next-button{
+    margin-left: 42%;
+    margin-top: 20px;
+    width: 100px;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.162);
+    border-radius: 5px;
+    background-color: blue;
+    color: black;
+    border: 1px solid black;
+ }
+ .correct{
+    background-color: rgba(0, 128, 0, 0.599);
+ }
+ .inCorrect{
+    background-color: rgba(255, 0, 0, 0.396);
+ }
